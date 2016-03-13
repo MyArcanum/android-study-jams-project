@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">ProjectOfMine</string>
+
+    <string name="head">What to do if your project does not work?</string>
+    <string name="ask_for_help">Ask for help</string>
+    <string name="relax">Relax/Go to sleep</string>
+    <string name="give_up">Just give it up</string>
+    <string name="ahead">You must go ahead</string>
+    <string name="banana">I am a banana! :3</string>
+
+    <string name="HelpText">You can`t know everything.
+        There are situations, when tou are stuck on some task,
+        when everything doesn`t want to work, or you just don`t know
+        how to act. In such moments you give up and says to yourself
+        "why am i so stupid?". But everyone has got friends, chums,
+        colleagues, collaborators
+        or teachers. And we can always take the phone, ring them up
+        and say "hey, buddy, help me please" and they won`t abandon
+        you. So don`t wait for a miracle - ask for help!</string>
+    <string name="ring_friends_up">Ring friends up!</string>
+    <string name="or_write_to_them">Or write to them!</string>
+    
+    <string name="RestText">You are tired and your head doesn`t work properly? 
+        Maybe you should have a rest?
+        Every child knows the expression "All work and no play makes Jack a dull boy"
+        - and this is true! Everyone should have rest.
+        Take a break, breath of fresh air, have a cup of tee or coffee,
+        speak to somebody, mash your body, walk somewhere or even sleep a little.
+        Yawning is highly recommended, because the brain supply by 
+        oxygen imroves that moment. And get back to work with fresh head!</string>
+    <string name="rest">Watch something interesting</string>
+    <string name="sleep">Or set up an alarm clock</string>
+
+    <string name="GiveUpText">And what? Is this the end? Is this a limit of your powers?
+        Do you want to give your work up? And how will you live with this?
+        If you escape from difficulties one time - you will escape all your lifelong.
+        If you show weakness one time - you will be loser all your lifelong!
+        SO MOVE YOUR ASS AND GET TO WORK!</string>
+    <string name="not_loser">Do not be a loser!</string>
+
+    <string name="AheadText">You are strong! You are beast!
+        You are machine! You are unstoppable! Show everyone
+        what are you made of! Prove that you are cool!
+        Because success has already been waiting for you!</string>
+    <string name="go_ahead">Here some music for inspiration</string>
+
+
+</resources>

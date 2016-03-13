@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fon_purple"
+        android:scaleType="centerCrop" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            style="@style/layout"
+            tools:context="factory.arcanum.ninth.myfirstproject.Relax">
+
+            <TextView
+                android:id="@+id/RestText"
+                android:text="@string/RestText"
+                style="@style/list"
+                android:textColor="#ffffff" />
+
+            <Button
+                style="@style/buttonsMore"
+                android:layout_below="@id/RestText"
+                android:text="@string/rest"
+                android:background="#77fb04"
+                android:onClick="VIDEO" />
+
+            <Button
+                style="@style/buttonsMore"
+                android:layout_below="@id/RestText"
+                android:text="@string/sleep"
+                android:background="#77fb04"
+                android:layout_alignParentRight="true"
+                android:onClick="createAlarm" />
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

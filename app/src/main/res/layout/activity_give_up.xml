@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fon_red"
+        android:scaleType="centerCrop" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            style="@style/layout"
+            tools:context="factory.arcanum.ninth.myfirstproject.Give_up">
+
+            <TextView
+                android:id="@+id/GiveUp"
+                android:text="@string/GiveUpText"
+                style="@style/list"
+                android:textColor="#fff" />
+
+            <Button
+                style="@style/buttons"
+                android:text="@string/not_loser"
+                android:background="#ffffff"
+                android:onClick="searchWeb" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

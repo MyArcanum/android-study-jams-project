@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scaleType="centerCrop"
+    android:src="@drawable/sky" />
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="factory.arcanum.ninth.gamescollector.Home"
+    android:padding="0dp">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="@string/head"
+        android:id="@+id/typeList"
+        android:gravity="center"
+        android:layout_marginTop="10sp"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        android:textColor="#ffffff" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#B2FF59"
+        style="@style/HomeList"
+        android:id="@+id/askHelp"
+        android:text="@string/ask_for_help"
+        android:clickable="true"
+        android:onClick="onAskClick" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#EA80FC"
+        style="@style/HomeList"
+        android:id="@+id/relax"
+        android:text="@string/relax"
+        android:clickable="true"
+        android:onClick="onRelaxClick" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#C62828"
+        style="@style/HomeList"
+        android:id="@+id/giveUp"
+        android:text="@string/give_up"
+        android:clickable="true"
+        android:onClick="onGiveupClick" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#4FC3F7"
+        style="@style/HomeList"
+        android:id="@+id/ahead"
+        android:text="@string/ahead"
+        android:clickable="true"
+        android:onClick="onAheadClick" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#FFEE58"
+        style="@style/HomeList"
+        android:id="@+id/banana"
+        android:text="@string/banana"
+        android:clickable="true"
+        android:onClick="showToast" />
+
+</LinearLayout>
+    </FrameLayout>
